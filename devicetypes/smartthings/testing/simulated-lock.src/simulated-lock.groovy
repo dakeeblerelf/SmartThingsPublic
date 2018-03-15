@@ -191,4 +191,3 @@ def setBatteryLevel(Number lvl) {
     log.trace "setBatteryLevel(level)"
     sendEvent(name: "battery", value: lvl)
 }
-
